@@ -1,12 +1,15 @@
 <div class="flex flex-col items-center justify-center">
 
-  <img class="w-20 h-20 rounded-full mt-6" src="/src/app/Images/foto.jpeg" alt="Rounded avatar">
+  <!--imagen-->
+  <img class="w-20 h-20 rounded-full mt-6" src="/Tarea2IDWM/src/Images/foto.jpeg" alt="Rounded avatar">
 
-  <p class="mt-4 text-center text-32 font-semibold">Hola!, soy Cristhian Montoya Gahona</p>
+  <!--nombre y rol profesional-->
+  <p class="mt-4 text-center text-[32px] font-semibold">Hola!, soy Cristhian Montoya Gahona</p>
 
-  <p class="mt-10 text-center text-32 text-black">Estudiante de Ingeniería Civil en Computación e Informática</p>
-  <p class="text-center text-32 text-black">Universidad Católica del Norte, Antofagasta</p>
+  <p class="mt-10 text-center text-[32px] text-black">Estudiante de Ingeniería Civil en Computación e Informática</p>
+  <p class="text-center text-[32px] text-black">Universidad Católica del Norte, Antofagasta</p>
 
+  <!--Botones contactame y github-->
   <div class="flex justify-center mt-6 space-x-20">
     
     <contactameButton class="text-center"></contactameButton>
@@ -16,17 +19,34 @@
   </div>
 
 
+  <!-- Experiencia Laboral -->
   <ol class="relative border-l border-gray-200 dark:border-gray-700 ms-4">
     <li class="mb-10 ms-4">
-      
-      <!-- Pelotita alineada con el texto "404: Not Found" -->
+     
       <div class="absolute w-4 h-4 bg-green-500 rounded-full border border-white dark:border-gray-900 -left-2 top-20 transform -translate-y-0"></div>
-      
+    
       <div>
-        <h3 class="mb-1 text-32 mt-10 font-bold leading-none text-gray-900 dark:text-white">Experiencia Laboral</h3>
-        <h4 class="text-32 mt-10 font-bold text-gray-900 dark:text-white">404: Not Found</h4>
+      
+        <h3 class="mb-1 text-[32px] mt-10 font-bold leading-none text-gray-900 dark:text-white">Experiencia Laboral</h3>
+   
+        <h4 class="text-[32px] mt-10 font-bold text-gray-900 dark:text-white">404: Not Found</h4>
       </div>
     </li>
   </ol>
+
+  <!-- Proyectos -->
+  <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+ 
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/Tarea2IDWM/src/Images/foto.jpeg" alt="Donkey Kong Arcade" />
+
+   
+    <div class="flex flex-col justify-between p-4 leading-normal">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Donkey Kong Arcade</h5>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Recreación del mítico juego Donkey Kong, utilizando Unity para su elaboración.</p>
+
+ 
+      <repoButton></repoButton>
+    </div>
+  </a>
 
 </div>

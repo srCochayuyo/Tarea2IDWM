@@ -3,11 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { initFlowbite } from 'flowbite';
 import { GitHubButonComponent } from './Components/Buttons/git-hub-buton/git-hub-buton.component';
 import { ContactameButtonComponent } from './Components/Buttons/contactame-button/contactame-button.component';
+import { RepoButtonComponent } from './Components/Buttons/repo-button/repo-button.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, GitHubButonComponent, ContactameButtonComponent],
+  imports: [RouterOutlet, GitHubButonComponent, ContactameButtonComponent,RepoButtonComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
