@@ -12,4 +12,7 @@ export class ContactameFormComponent {
 
   @Input() isOpen: boolean = false; 
   @Input() closeModal: () => void = () => {}
+
+
+
 }
